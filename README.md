@@ -20,3 +20,6 @@ When deleting a user with an existing Klicktipp copy, the Klicktipp user will de
 
 ## Logs
 You can find the logs at `/logs/klicktipp_sync.log.php`. Access to this file from a browser is disallowed.
+
+## User names
+This plugin expects names in the format of "FirstName LastName", this means that the word after the last space is always saved as the last name.
