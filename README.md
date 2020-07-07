@@ -17,3 +17,6 @@ Don't forget to **create a tag** for all website users in your Klicktipp dashboa
 
 Save the changes. After that, all created or updated users will be exported to Klicktipp.  
 When deleting a user with an existing Klicktipp copy, the Klicktipp user will deleted.
+
+## Logs
+You can find the logs at `/logs/klicktipp_sync.log.php`. Access to this file from a browser is disallowed.
