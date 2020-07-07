@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="user" method="upgrade">
+	<name>Klicktipp Sync</name>
+	<author>Comdion GmbH</author>
+	<creationDate>July 2020</creationDate>
+	<copyright>Comdion GmbH</copyright>
+	<license></license>
+	<authorEmail>office@comdion.at</authorEmail>
+	<authorUrl>https://comdion.at</authorUrl>
+	<version>1.0.0</version>
+	<description>Syncs user changes to Klicktipp</description>
+	<files>
+		<filename plugin="klicktipp_sync">klicktipp_sync.php</filename>
+        <filename>klicktipp.api.inc</filename>
+        <filename>index.html</filename>
+	</files>
+	<languages>
+	</languages>
+	<config>
+		<fields name="params">
+            <fieldset name="basic">
+                <field name="klicktipp_username" type="text"
+                    description="Username for API authentication"
+                    label="Klicktipp Username"
+                />
+                <field name="klicktipp_password" type="password"
+                    description="Password for API authentication"
+                    label="Klicktipp Password"
+                />
+                <field name="klicktipp_tag" type="text"
+                    description="Klicktipp User Tag"
+                    label="Klicktipp User Tag"
+                />
+            </fieldset>
+		</fields>
+	</config>
+</extension>
